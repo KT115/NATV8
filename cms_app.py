@@ -25,7 +25,7 @@ if action == "新建專案 (New Project)":
   )
   template_type = st.selectbox(
       "選擇 Template 類型", ["lucky_draw"]
-  )  暫時只有抽獎
+  )  #暫時只有抽獎
 
   if st.button("建立專案"):
     if not project_id:
